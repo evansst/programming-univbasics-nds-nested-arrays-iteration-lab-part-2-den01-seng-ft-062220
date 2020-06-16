@@ -9,8 +9,8 @@ def find_min_in_nested_arrays(src)
     while eindex < src[rindex].count do
       if src[rindex][eindex] < min
         min = src[rindex][eindex]
-        results << min
       end
+      results << min
       eindex += 1
       
     end
