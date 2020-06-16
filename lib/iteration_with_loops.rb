@@ -10,10 +10,11 @@ def find_min_in_nested_arrays(src)
       if src[rindex][eindex] < min
         min = src[rindex][eindex]
       end
-      results << min
+      
       eindex += 1
       
     end
+    results << min
     rindex += 1 
   end
   results
